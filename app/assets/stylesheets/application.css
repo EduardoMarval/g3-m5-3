@@ -1,0 +1,39 @@
+/* custom css by Marval */
+
+
+.movies{
+    background-image: url(https://mediaindia.eu/wp-content/uploads/2023/01/Untitled-design-44-1-1.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.series{
+    background-image: url(https://www.rd.com/wp-content/uploads/2021/12/shows-to-watch-on-netflix-FT.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.docu{
+    background-image: url(https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQYD7rZ-gc94ter2-vH9WMUAibkD-FPfl1ISil6NmgGWdZa4YGmLmPAK837odv0JjJQXyVSKL87TryY5mLN6d598V4rUOHtA1K0ip9LEe6wBMygzVoTunpFSAbRRtEKQlVroIECTVRIKFu0ZnR70IruQ62lI.jpg?r=a50
+    );
+    background-size: cover;
+    background-position: center center;
+}
+
+.getbtn{
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.getbtn:hover{
+background: rgba(255, 255, 255, 0.51);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    }

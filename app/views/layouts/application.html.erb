@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Desafio3</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+  <div class="container py-3">
+  <header>
+    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+        <span class="fs-4">Marvalflix</span>
+      </a>
+
+      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+        <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/">Home</a>
+        <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/movies">Movies</a>
+        <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/series">Series</a>
+        <a class="py-2 link-body-emphasis text-decoration-none" href="/documentary_films">Documentary</a>
+      </nav>
+    </div>
+  </header>
+    <%= yield %>
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <small class="d-block mb-3 text-body-secondary"><span>Marval</span> © 2023</small>
+      </div>
+      <div class="col-6 col-md">
+      <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/movies">Movies</a>
+      </div>
+      <div class="col-6 col-md">
+      <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="/series">Series</a>
+      </div>
+      <div class="col-6 col-md">
+      <a class="py-2 link-body-emphasis text-decoration-none" href="/documentary_films">Documentary</a>
+      </div>
+    </div>
+  </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>  </body>
+</html>

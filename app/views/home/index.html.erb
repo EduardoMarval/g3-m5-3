@@ -1,0 +1,47 @@
+  <main>
+  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+  <h1 class="display-4 fw-normal text-body-emphasis">Welcome</h1>
+  <p class="fs-5 text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed enim veritatis sapiente, labore minus cum aperiam eum, eligendi ullam culpa laboriosam consequuntur! Asperiores alias aut fuga? Ullam hic quibusdam accusamus.</p>
+  </div>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="col">
+    <div class="card mb-4 movies rounded-3 shadow-sm">
+      <div class="card-header py-3">
+        <h4 class="my-0 fw-normal text-white">Movies</h4>
+      </div>
+      <div class="card-body">
+        <ul class="list-unstyled mt-3 mb-4">
+          <li class="py-5"></li>
+        </ul>
+        <%= link_to 'Get started', movies_path, class: "w-100 btn btn-lg btn-primary getbtn text-white border-0" %>
+      </div>
+    </div>
+  </div>
+      <div class="col">
+        <div class="card mb-4 series rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal text-white">Series</h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li class="py-5"></li>
+            </ul>
+            <%= link_to 'Get started', series_index_path, class: "w-100 btn btn-lg btn-primary getbtn text-white border-0" %>
+            </div>
+        </div>
+      </div>
+      <div class="col">
+      <div class="card mb-4 docu rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal text-white">Documentary</h4>
+        </div>
+        <div class="card-body">
+          <ul class="list-unstyled mt-3 mb-4">
+            <li class="py-5"></li>
+          </ul>
+          <%= link_to 'Get started', documentary_films_path, class: "w-100 btn btn-lg btn-primary getbtn text-white border-0" %>
+          </div>
+      </div>
+    </div>
+    </div>
+  </main>

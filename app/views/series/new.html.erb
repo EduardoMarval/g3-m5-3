@@ -1,0 +1,23 @@
+<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+<h1 class="display-4 fw-normal text-body-emphasis">Add Serie</h1>
+<p class="fs-5 text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed enim veritatis sapiente, labore minus cum aperiam eum, eligendi ullam culpa laboriosam consequuntur! Asperiores alias aut fuga? Ullam hic quibusdam accusamus.</p>
+</div>
+<div class="row row-cols-1  mb-5 justify-content-center">
+<div class="w-50">
+<%= form_with model: @serie, url: series_create_path do |form| %>
+    <div class="mb-3">
+    <label class="form-label">Serie Title</label>
+    <%= form.text_field :name, class:"form-control" %>
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Synopsis</label>
+    <%= form.text_area :synopsis, class:"form-control" %>
+  </div>
+  <div class="mb-3">
+  <label class="form-label">Director</label>
+  <%= form.text_field :director, class:"form-control" %>
+</div>
+  <%= form.submit 'Save', class:"w-100 btn btn-lg btn-primary getbtn text-black border-0" %>
+  <% end %>
+  </div>
+  </div>
